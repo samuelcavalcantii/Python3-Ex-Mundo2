@@ -2,25 +2,6 @@
 
 considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.'''
 
-'''valor= int(input('valor '))
-cedulas = valor // 50
-resto = valor%50
-print(cedulas)
-print(resto)
-if cedulas > 0:
-    print(f'{cedulas} notas de 50')
-cedulas = resto //20
-resto%=20
-if cedulas> 0:
-    print(f'{cedulas} notas de 20')
-cedulas = resto // 10
-resto%=10
-if cedulas > 0:
-    print(f'{cedulas} notas de 10')
-cedulas = resto // 1
-resto%=1
-if cedulas > 0:
-    print(f'{cedulas} notas de 1')'''
 import statistics as sts
 import time as tm
 op_saque = [100,50,20,10,5,2]
